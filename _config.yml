@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /grupa3
 exclude: ['README.md']
+
