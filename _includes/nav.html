@@ -1,8 +1,8 @@
 	<div class="navBar">
 		<ul class="clearFix">
-			<li><a href="{{site.baseurl}}/index.html" class="current">Home</a></li>
-	  		<li><a href="{{site.baseurl}}/about.html">About </a></li>
-	  		<li><a href="{{site.baseurl}}/video.html">Video</a></li>
-	  		<li><a href="{{site.baseurl}}/where.html">Where?</a></li>
+			<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+	  		<li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About </a></li>
+	  		<li><a href="{{site.baseurl}}/video.html" class="{% if page.url == '/video.html' %}current{% endif %}">Video</a></li>
+	  		<li><a href="{{site.baseurl}}/where.html" class="{% if page.url == '/where.html' %}current{% endif %}">Where?</a></li>
 	  	</ul>
 	</div>
