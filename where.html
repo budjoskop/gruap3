@@ -48,7 +48,7 @@ layout: default
 	 				<th><b>Date</b></th>
 	 				<th><b>Place</b></th>
 	 			</tr>
-	 			{% for post in site.categories.pastEvents  %}
+	 			{% for post in site.categories.pastEvents limit: 5 %}
 	 			<tr>
 	 				<th>{{post.datum}}</th>
 	 				<th>{{post.place}}</th>
