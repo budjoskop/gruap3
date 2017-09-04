@@ -1,4 +1,6 @@
 ---
-datum: 11.3
+datum: 3.2
 place: Jolly Roger Pub - Beograd
+category: pastEvents
 ---
+
